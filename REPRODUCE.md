@@ -146,6 +146,55 @@ The folder has no compute of its own. To regenerate the records, re-run live com
 
 Limits: a re-pricing of fixed measured walls; it assumes freed cores are billed pro rata (per-core accounting with backfill) and cannot capture contention from co-tenants on the freed cores. Numbers apply to grn061 and the 3x3 supercell job sizes of this comparison.
 
+### `bootstrap_ci/`: seed-level bootstrap intervals for the measured timing attacks of comparisons No. 1, No. 2 and No. 3
+
+Level: analysis of committed records. Underlying records: comparison No. 1 (480 Quantum ESPRESSO calls, 10 paired seeds) and comparison No. 2 (15 paired seeds), both run on CHPC granite node grn061 (64 cores, 380 GB RAM); comparison No. 3 (60 campaigns, seeds 0 to 14, on granite-guest and notchpeak-guest nodes) and its 12 site-bridge copies run on notchpeak guest nodes.
+
+**Re-analyse from the committed records (no new compute).**
+
+Python 3 with `numpy`. Both scripts resolve paths from their own location, so they run from the repository root. Each overwrites its committed output; work in a fresh copy of the repository.
+
+1. Comparisons No. 1 and No. 2 and the masking sweep:
+   `python3 bootstrap_ci/seed_bootstrap.py`
+   - imports `timing_masking/mask_study.py` and `paired_comparison_2/wire_attack2.py` (attack code reused unchanged);
+   - reads `paired_comparison_1/results/campaigns.jsonl` (comparison No. 1), `timing_masking/mask_results.json` (list of masking clauses to re-evaluate), `paired_comparison_2/inputs/manifest2.json`, `paired_comparison_2/results/wire_log.jsonl`, and the `SALT` line of `paired_comparison_2/live2_campaign.py` (to map opaque identifiers back to compounds offline);
+   - writes `bootstrap_ci/seed_bootstrap.json`.
+2. Comparison No. 3:
+   `python3 bootstrap_ci/seed_bootstrap3.py`
+   - imports `paired_comparison_3/wire_attack3.py`, which reads `paired_comparison_3/collected_2026-10-14/<ARM>_s<seed>/{campaigns.jsonl,wire_log.jsonl}` (60 campaign folders), `paired_comparison_3/site_bridge_2026-10-14/<ARM>_s<seed>/` (12 folders) and `paired_comparison_2/inputs/manifest2.json`;
+   - writes `bootstrap_ci/seed_bootstrap3.json`.
+
+Method in both scripts: leave-one-seed-out identity and membership attacks as in the source folders; the per-seed held-out outcomes are resampled with replacement (cluster bootstrap over seeds, B = 10000, percentile 95 % intervals). References are not refitted per replicate. Paired arms share the resampled seed indices (No. 1 arms; DTDE and CEDT_P4 in No. 3, including the T3 difference). Seeds: `numpy.random.default_rng(20261008)` for `seed_bootstrap.py`, `default_rng(20261015)` for `seed_bootstrap3.py`. No command-line arguments or environment variables.
+
+**Re-run the computation.**
+
+The folder has no compute of its own. The records come from `paired_comparison_1/` (comparison No. 1), `paired_comparison_2/` (No. 2) and `paired_comparison_3/` (No. 3 and site bridge); re-running those campaigns and then the two scripts above regenerates the intervals.
+
+**Outputs.**
+
+- `bootstrap_ci/seed_bootstrap.json` (`comparison1`, `masking` worse-arm intervals for every clause, `comparison2`)
+- `bootstrap_ci/seed_bootstrap3.json` (`arms`, `T3_identity_difference_CEDT_minus_DTDE`, `T1_cross_cluster`)
+- The No. 3 table is reproduced in `paired_comparison_3/TIMING_ATTACK_RESULTS.md` (section "Bootstrap intervals").
+
+**Checks.** Point estimates must equal the source attacks; intervals are 95 % percentile.
+
+| record | identity accuracy | membership AUC |
+| --- | --- | --- |
+| No. 1, DTDE and CEDT_P4 (10 seeds) | 0.9625 (0.9125 to 1.0) | 1.0 (1.0 to 1.0) |
+| No. 1, pad p99, worse arm | 0.075 (0.0375 to 0.1125) | 0.5013 (0.4726 to 0.5377) |
+| No. 1, quant 600 s, worse arm | 0.05 (0.0125 to 0.0875) | 0.5 (0.5 to 0.5) |
+| No. 2, DTDE (15 seeds) | 0.78 (0.68 to 0.875) | 0.9893 (0.979 to 0.9989) |
+| No. 2, CEDT_P4 (15 seeds) | 0.5849 (0.4423 to 0.7193) | 0.9348 (0.9103 to 0.9587) |
+| No. 3, DTDE (15 seeds) | 0.75 (0.6279 to 0.8605) | 0.9447 (0.9034 to 0.9754) |
+| No. 3, CEDT_P4 | 0.4839 (0.3913 to 0.5761) | 0.8256 (0.7722 to 0.8749) |
+| No. 3, CTDE_P2 | 0.2184 (0.1348 to 0.3177) | 0.6721 (0.613 to 0.7347) |
+| No. 3, MIX50 routed jobs | 0.1739 (0.0895 to 0.2698) | 0.7216 (0.6395 to 0.7997) |
+| No. 3, T1 cross-cluster (10 seeds) | 0.4655 (0.2632 to 0.6727) | 0.8324 (0.7313 to 0.9135) |
+
+T3 difference (CEDT_P4 minus DTDE identity, No. 3): -0.2661 (-0.4154 to -0.0921). Identity limits: 0.087 (No. 1), 0.0845 (No. 3); AUC limit 0.60.
+
+Limits: intervals describe seed-to-seed variation given fixed leave-one-seed-out references, not refitting uncertainty; with 10 or 15 seeds the percentile intervals are coarse; the measured walls, and therefore all values, depend on the nodes and co-tenant load during the original runs.
+
 ### `ceiling_diagnosis/`: decomposition of the baseline spend to first qualifier into irreducible, scientific and execution components
 
 Level: simulated (simulated node-hours on the prior-predictive twin imported from `prior_predictive/simulator.py`, base prior card only). The hardware used is not in the repository.

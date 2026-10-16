@@ -33,6 +33,7 @@ this repository with no access to anything else.
 | folder | content |
 |---|---|
 | `billing_regrade/` | measured comparison No. 1 re-graded under whole-node and per-core charging |
+| `bootstrap_ci/` | cluster-bootstrap intervals over seeds for the measured timing attacks |
 | `ceiling_diagnosis/` | simulated: how much of the preregistered speed-up margin any agreement can reach |
 | `centralization_surface/` | simulated: gain for both parties over training and execution centralization, task scale, number of research parties and schedules |
 | `cofit_probe/` | measured: two 6x6 jobs run side by side versus one after another |
@@ -75,6 +76,7 @@ The folders `fast_path/`, `governance_regrade/`, `contention_transfer_bench/`, `
 Files the figure generator reads (`traced_inputs.json`):
 
 - `billing_regrade/billing_regrade.json`
+- `bootstrap_ci/seed_bootstrap.json`
 - `ceiling_diagnosis/results/ceiling_diagnosis.json`
 - `centralization_surface/results/scaling.json`
 - `centralization_surface/results/schedules.json`
@@ -85,7 +87,103 @@ Files the figure generator reads (`traced_inputs.json`):
 - `centralization_surface/results/surface_scale.json`
 - `paired_comparison_1/results/campaigns.jsonl`
 - `paired_comparison_2/f3_repair/results/repair_graded.json`
+- `paired_comparison_2/inputs/MoS2_2H.f2.in`
+- `paired_comparison_2/inputs/manifest2.json`
+- `paired_comparison_2/results/campaigns.jsonl`
 - `paired_comparison_2/results/wire_attack_results.json`
+- `paired_comparison_2/results/wire_log.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s0/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s1/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s10/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s11/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s12/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s13/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s14/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s2/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s3/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s4/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s5/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s6/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s7/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s8/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CEDT_P4_s9/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s0/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s1/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s10/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s11/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s12/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s13/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s14/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s2/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s3/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s4/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s5/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s6/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s7/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s8/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/CTDE_P2_s9/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s0/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s1/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s10/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s11/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s12/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s13/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s14/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s2/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s3/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s4/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s5/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s6/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s7/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s8/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/DTDE_s9/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s0/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s1/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s10/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s11/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s12/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s13/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s14/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s2/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s3/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s4/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s5/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s6/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s7/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s8/campaigns.jsonl`
+- `paired_comparison_3/collected_2026-10-14/MIX50_s9/campaigns.jsonl`
+- `paired_comparison_3/pair_sites.json`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s0/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s1/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s10/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s11/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s12/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s13/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s14/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s2/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s3/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s4/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s5/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s6/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s7/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s8/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/CEDT_P4_s9/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s0/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s1/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s10/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s11/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s12/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s13/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s14/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s2/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s3/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s4/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s5/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s6/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s7/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s8/campaigns.jsonl`
+- `paired_comparison_3b/collected_2026-10-14/DTDE_s9/campaigns.jsonl`
+- `paired_comparison_3b/pair_sites.json`
 - `metric_redesign/metric_study.json`
 - `result_sharing/results/broker_decoy.json`
 - `result_sharing/results/broker_exchange.json`
