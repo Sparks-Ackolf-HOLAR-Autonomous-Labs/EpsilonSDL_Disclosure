@@ -1,5 +1,7 @@
 # Minimal reciprocal disclosure in shared semiconductor screening depends on memory pressure, billing, timing masking and division of work
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23413480.svg)](https://doi.org/10.5281/zenodo.23413480)
+
 Code and data for the article "Minimal reciprocal disclosure in shared semiconductor screening depends on memory pressure, billing, timing masking and division of work" (prepared for AI for Science (IOP Publishing)).
 
 A research group screening two-dimensional semiconductors by density functional theory and the computing centre that runs its jobs could each gain by telling the other something, yet each guards its knowledge (the candidate list; the node settings). The article tests how little each party must disclose for both to gain, in 1,000 simulated scenarios and four preregistered measured comparisons of Quantum ESPRESSO screens of 29 MX2 layers. A gain for both parties needs jobs that fill much of node memory, billing for reserved memory, masked completion times and paired grading; under these conditions one disclosed memory bit per job raised the centre's valid results per unit charge 1.13-fold. The article also simulates research groups that exchange computed gaps and vacancy barriers, and groups that share growth and deposition stations.
