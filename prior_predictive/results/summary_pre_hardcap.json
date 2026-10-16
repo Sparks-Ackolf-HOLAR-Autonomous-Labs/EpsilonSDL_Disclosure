@@ -1,0 +1,696 @@
+{
+  "conditions": {
+    "CTCE_P0": {
+      "n_worlds": 1000,
+      "win_win": 0.0,
+      "r_gain": 0.146,
+      "h_gain": 0.462,
+      "leak_ok": 0.0,
+      "found_rate": 0.9064000000000001,
+      "mean_nh_first": 316.55080024893545,
+      "mean_qual": 2.059333333333333,
+      "labels_per_nh": 0.032505336359354944,
+      "fail_rate": 0.023613458767669692,
+      "validity": 0.9696382241516552,
+      "r_mi_auc": 1.0,
+      "r_comp_adv": 0.9333333333333335,
+      "r_id_acc": 1.0,
+      "h_rank_corr": 1.0,
+      "h_hw_adv": 0.6666666666666666,
+      "h_tel_auc": 1.0,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "DTDE_P4": {
+      "n_worlds": 1000,
+      "win_win": 0.0,
+      "r_gain": 0.0,
+      "h_gain": 0.0,
+      "leak_ok": 1.0,
+      "found_rate": 0.8385,
+      "mean_nh_first": 345.50292023644863,
+      "mean_qual": 1.6807999999999998,
+      "labels_per_nh": 0.02646300989124441,
+      "fail_rate": 0.023984112031395846,
+      "validity": 0.9740341288122342,
+      "r_mi_auc": 0.5,
+      "r_comp_adv": 0.0,
+      "r_id_acc": 0.033333333333333326,
+      "h_rank_corr": 0.04797507304607937,
+      "h_hw_adv": 0.06548398376889064,
+      "h_tel_auc": 0.5143988379250541,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CTDE_P1": {
+      "n_worlds": 1000,
+      "win_win": 0.0,
+      "r_gain": 0.07,
+      "h_gain": 0.037,
+      "leak_ok": 0.0,
+      "found_rate": 0.836,
+      "mean_nh_first": 346.08881297724133,
+      "mean_qual": 1.6709666666666667,
+      "labels_per_nh": 0.02711403682205139,
+      "fail_rate": 0.02484513095092252,
+      "validity": 0.9715839810096399,
+      "r_mi_auc": 0.9466424244678544,
+      "r_comp_adv": 0.8029303424852631,
+      "r_id_acc": 0.8639188141280588,
+      "h_rank_corr": 0.8041746064805365,
+      "h_hw_adv": 0.5197396555900556,
+      "h_tel_auc": 0.5812362238159547,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CTDE_P2": {
+      "n_worlds": 1000,
+      "win_win": 0.0,
+      "r_gain": 0.073,
+      "h_gain": 0.047,
+      "leak_ok": 0.0,
+      "found_rate": 0.8385,
+      "mean_nh_first": 348.9955488070266,
+      "mean_qual": 1.6715333333333333,
+      "labels_per_nh": 0.02688634239130554,
+      "fail_rate": 0.022433485478797536,
+      "validity": 0.9735277134363646,
+      "r_mi_auc": 0.5828162053508004,
+      "r_comp_adv": 0.07343910935237438,
+      "r_id_acc": 0.1467657760190411,
+      "h_rank_corr": 0.23427738981438334,
+      "h_hw_adv": 0.17902068506506214,
+      "h_tel_auc": 0.5354111274159161,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CTDE_P3": {
+      "n_worlds": 1000,
+      "win_win": 0.005,
+      "r_gain": 0.083,
+      "h_gain": 0.059,
+      "leak_ok": 0.231,
+      "found_rate": 0.8392666666666666,
+      "mean_nh_first": 348.72188242985084,
+      "mean_qual": 1.677366666666667,
+      "labels_per_nh": 0.027023666349260587,
+      "fail_rate": 0.022493592176207333,
+      "validity": 0.9739564009701415,
+      "r_mi_auc": 0.5828280524826815,
+      "r_comp_adv": 0.010566575352808775,
+      "r_id_acc": 0.08386760813289419,
+      "h_rank_corr": 0.13673162355747964,
+      "h_hw_adv": 0.10647817388134907,
+      "h_tel_auc": 0.5202612183541742,
+      "per_card": {
+        "base": 0.011976047904191617,
+        "strong_coupling": 0.003003003003003003,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CTDE_P4": {
+      "n_worlds": 1000,
+      "win_win": 0.0,
+      "r_gain": 0.0,
+      "h_gain": 0.0,
+      "leak_ok": 1.0,
+      "found_rate": 0.8385,
+      "mean_nh_first": 345.50292023644863,
+      "mean_qual": 1.6807999999999998,
+      "labels_per_nh": 0.02646300989124441,
+      "fail_rate": 0.023984112031395846,
+      "validity": 0.9740341288122342,
+      "r_mi_auc": 0.5,
+      "r_comp_adv": 0.0,
+      "r_id_acc": 0.033333333333333326,
+      "h_rank_corr": 0.04797507304607937,
+      "h_hw_adv": 0.06548398376889064,
+      "h_tel_auc": 0.5120950238570456,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CEDT_P1": {
+      "n_worlds": 1000,
+      "win_win": 0.0,
+      "r_gain": 0.149,
+      "h_gain": 0.456,
+      "leak_ok": 0.0,
+      "found_rate": 0.9053666666666667,
+      "mean_nh_first": 317.2997655686195,
+      "mean_qual": 2.052633333333333,
+      "labels_per_nh": 0.03231413980825337,
+      "fail_rate": 0.02338228296515825,
+      "validity": 0.9698281180715128,
+      "r_mi_auc": 0.9092267130893138,
+      "r_comp_adv": 0.801442105583746,
+      "r_id_acc": 0.8627830807738046,
+      "h_rank_corr": 0.7986886364578479,
+      "h_hw_adv": 0.5231749378857969,
+      "h_tel_auc": 0.6601053409981823,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CEDT_P2": {
+      "n_worlds": 1000,
+      "win_win": 0.0,
+      "r_gain": 0.156,
+      "h_gain": 0.377,
+      "leak_ok": 0.0,
+      "found_rate": 0.9151666666666668,
+      "mean_nh_first": 316.28047834305124,
+      "mean_qual": 1.9959666666666667,
+      "labels_per_nh": 0.030638368473277035,
+      "fail_rate": 0.021001328978432224,
+      "validity": 0.9734175250054724,
+      "r_mi_auc": 0.5801990021477684,
+      "r_comp_adv": 0.0734856434051066,
+      "r_id_acc": 0.14681231007177328,
+      "h_rank_corr": 0.23363553846218554,
+      "h_hw_adv": 0.18120545080045317,
+      "h_tel_auc": 0.5687615308410604,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CEDT_P3": {
+      "n_worlds": 1000,
+      "win_win": 0.014,
+      "r_gain": 0.224,
+      "h_gain": 0.343,
+      "leak_ok": 0.213,
+      "found_rate": 0.9246,
+      "mean_nh_first": 303.2198058291292,
+      "mean_qual": 1.9955666666666667,
+      "labels_per_nh": 0.03003565799049244,
+      "fail_rate": 0.022611272030336065,
+      "validity": 0.9714207187549246,
+      "r_mi_auc": 0.5866781747312442,
+      "r_comp_adv": 0.010586671483773194,
+      "r_id_acc": 0.08388891759177759,
+      "h_rank_corr": 0.13691401739627207,
+      "h_hw_adv": 0.10751279954542815,
+      "h_tel_auc": 0.5390268397294857,
+      "per_card": {
+        "base": 0.029940119760479042,
+        "strong_coupling": 0.012012012012012012,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CEDT_P4": {
+      "n_worlds": 1000,
+      "win_win": 0.051,
+      "r_gain": 0.059,
+      "h_gain": 0.274,
+      "leak_ok": 1.0,
+      "found_rate": 0.8802666666666666,
+      "mean_nh_first": 321.09414556826397,
+      "mean_qual": 1.9128666666666667,
+      "labels_per_nh": 0.029738431813973686,
+      "fail_rate": 0.025904799373650464,
+      "validity": 0.9687997901509701,
+      "r_mi_auc": 0.5,
+      "r_comp_adv": 0.0,
+      "r_id_acc": 0.033333333333333326,
+      "h_rank_corr": 0.04737550398739586,
+      "h_hw_adv": 0.0668486515091622,
+      "h_tel_auc": 0.5235935553255988,
+      "per_card": {
+        "base": 0.05688622754491018,
+        "strong_coupling": 0.07207207207207207,
+        "adversarial": 0.024024024024024024
+      },
+      "worst_card_win_win": 0.024024024024024024,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    }
+  },
+  "eps_sweep": {
+    "CTDE_P3_eps1": {
+      "n_worlds": 250,
+      "win_win": 0.004,
+      "r_gain": 0.068,
+      "h_gain": 0.064,
+      "leak_ok": 0.576,
+      "found_rate": 0.8566666666666666,
+      "mean_nh_first": 358.05812963087703,
+      "mean_qual": 1.7070666666666665,
+      "labels_per_nh": 0.026575539187529477,
+      "fail_rate": 0.02431272616888714,
+      "validity": 0.9726555384617236,
+      "r_mi_auc": 0.5842479024955207,
+      "r_comp_adv": 0.0,
+      "r_id_acc": 0.03659995764270966,
+      "h_rank_corr": 0.06237108324911195,
+      "h_hw_adv": 0.06442812893605508,
+      "h_tel_auc": 0.5085465389590114,
+      "per_card": {
+        "base": 0.011904761904761904,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CTDE_P3_eps2": {
+      "n_worlds": 250,
+      "win_win": 0.008,
+      "r_gain": 0.068,
+      "h_gain": 0.06,
+      "leak_ok": 0.476,
+      "found_rate": 0.8568,
+      "mean_nh_first": 358.0892088862195,
+      "mean_qual": 1.7068,
+      "labels_per_nh": 0.02654575488262635,
+      "fail_rate": 0.024249202942542215,
+      "validity": 0.972462997093758,
+      "r_mi_auc": 0.5842376949211151,
+      "r_comp_adv": 0.0,
+      "r_id_acc": 0.05855958317305041,
+      "h_rank_corr": 0.09962333241528759,
+      "h_hw_adv": 0.08895526456322309,
+      "h_tel_auc": 0.5136661648558892,
+      "per_card": {
+        "base": 0.011904761904761904,
+        "strong_coupling": 0.012048192771084338,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CTDE_P3_eps8": {
+      "n_worlds": 250,
+      "win_win": 0.0,
+      "r_gain": 0.06,
+      "h_gain": 0.036,
+      "leak_ok": 0.0,
+      "found_rate": 0.8554666666666667,
+      "mean_nh_first": 358.1287376750254,
+      "mean_qual": 1.7010666666666665,
+      "labels_per_nh": 0.02644023750997601,
+      "fail_rate": 0.023537376206021532,
+      "validity": 0.9723834832989554,
+      "r_mi_auc": 0.5843508733887499,
+      "r_comp_adv": 0.03316193458066912,
+      "r_id_acc": 0.10646860124733581,
+      "h_rank_corr": 0.17889003365108955,
+      "h_hw_adv": 0.11575965101253272,
+      "h_tel_auc": 0.5248252270967068,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CEDT_P3_eps1": {
+      "n_worlds": 250,
+      "win_win": 0.04,
+      "r_gain": 0.272,
+      "h_gain": 0.32,
+      "leak_ok": 0.388,
+      "found_rate": 0.9453333333333332,
+      "mean_nh_first": 287.9654285248016,
+      "mean_qual": 1.9509333333333334,
+      "labels_per_nh": 0.029007171798711272,
+      "fail_rate": 0.02710655736319287,
+      "validity": 0.9686330191183029,
+      "r_mi_auc": 0.6231070447548179,
+      "r_comp_adv": 0.0,
+      "r_id_acc": 0.03660027705292871,
+      "h_rank_corr": 0.06257426459532121,
+      "h_hw_adv": 0.06509481901778294,
+      "h_tel_auc": 0.5162768664224653,
+      "per_card": {
+        "base": 0.07142857142857142,
+        "strong_coupling": 0.024096385542168676,
+        "adversarial": 0.024096385542168676
+      },
+      "worst_card_win_win": 0.024096385542168676,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CEDT_P3_eps2": {
+      "n_worlds": 250,
+      "win_win": 0.048,
+      "r_gain": 0.244,
+      "h_gain": 0.3,
+      "leak_ok": 0.448,
+      "found_rate": 0.9429333333333334,
+      "mean_nh_first": 294.8991178660969,
+      "mean_qual": 1.9794666666666667,
+      "labels_per_nh": 0.029391257397742655,
+      "fail_rate": 0.024693352790628873,
+      "validity": 0.9699812275011959,
+      "r_mi_auc": 0.6002379632299905,
+      "r_comp_adv": 0.0,
+      "r_id_acc": 0.05857627475569523,
+      "h_rank_corr": 0.09980343616297227,
+      "h_hw_adv": 0.09009412787758203,
+      "h_tel_auc": 0.526360940283553,
+      "per_card": {
+        "base": 0.09523809523809523,
+        "strong_coupling": 0.03614457831325301,
+        "adversarial": 0.012048192771084338
+      },
+      "worst_card_win_win": 0.012048192771084338,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "CEDT_P3_eps8": {
+      "n_worlds": 250,
+      "win_win": 0.0,
+      "r_gain": 0.224,
+      "h_gain": 0.372,
+      "leak_ok": 0.0,
+      "found_rate": 0.9384,
+      "mean_nh_first": 308.72466864253767,
+      "mean_qual": 1.9949333333333332,
+      "labels_per_nh": 0.03001697565465382,
+      "fail_rate": 0.02160119743457563,
+      "validity": 0.9734136925091864,
+      "r_mi_auc": 0.5861304290648789,
+      "r_comp_adv": 0.03319006747885887,
+      "r_id_acc": 0.10649673414552555,
+      "h_rank_corr": 0.17892932838028608,
+      "h_hw_adv": 0.11679831120608616,
+      "h_tel_auc": 0.5483370827503561,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    },
+    "DTDE_P4": {
+      "n_worlds": 250,
+      "win_win": 0.0,
+      "r_gain": 0.0,
+      "h_gain": 0.0,
+      "leak_ok": 1.0,
+      "found_rate": 0.8561333333333333,
+      "mean_nh_first": 350.0114664901656,
+      "mean_qual": 1.7104,
+      "labels_per_nh": 0.026061190664546097,
+      "fail_rate": 0.02577830842060102,
+      "validity": 0.971680219763957,
+      "r_mi_auc": 0.5,
+      "r_comp_adv": 0.0,
+      "r_id_acc": 0.033333333333333326,
+      "h_rank_corr": 0.04969075723060763,
+      "h_hw_adv": 0.06537777263338798,
+      "h_tel_auc": 0.5139028696336507,
+      "per_card": {
+        "base": 0.0,
+        "strong_coupling": 0.0,
+        "adversarial": 0.0
+      },
+      "worst_card_win_win": 0.0,
+      "passes": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      },
+      "passes_worst_card": {
+        "0.8": false,
+        "0.9": false,
+        "0.95": false
+      }
+    }
+  },
+  "minimal_contracts": {
+    "CTDE": {
+      "probs": {
+        "P4": {
+          "win_win": 0.0,
+          "worst_card": 0.0,
+          "n_worlds": 1000
+        },
+        "P3_eps1": {
+          "win_win": 0.004,
+          "worst_card": 0.0,
+          "n_worlds": 250
+        },
+        "P3_eps2": {
+          "win_win": 0.008,
+          "worst_card": 0.0,
+          "n_worlds": 250
+        },
+        "P3": {
+          "win_win": 0.005,
+          "worst_card": 0.0,
+          "n_worlds": 1000
+        },
+        "P3_eps8": {
+          "win_win": 0.0,
+          "worst_card": 0.0,
+          "n_worlds": 250
+        },
+        "P2": {
+          "win_win": 0.0,
+          "worst_card": 0.0,
+          "n_worlds": 1000
+        },
+        "P1": {
+          "win_win": 0.0,
+          "worst_card": 0.0,
+          "n_worlds": 1000
+        }
+      },
+      "minimal_feasible_by_level": {
+        "0.8": null,
+        "0.9": null,
+        "0.95": null
+      }
+    },
+    "CEDT": {
+      "probs": {
+        "P4": {
+          "win_win": 0.051,
+          "worst_card": 0.024024024024024024,
+          "n_worlds": 1000
+        },
+        "P3_eps1": {
+          "win_win": 0.04,
+          "worst_card": 0.024096385542168676,
+          "n_worlds": 250
+        },
+        "P3_eps2": {
+          "win_win": 0.048,
+          "worst_card": 0.012048192771084338,
+          "n_worlds": 250
+        },
+        "P3": {
+          "win_win": 0.014,
+          "worst_card": 0.0,
+          "n_worlds": 1000
+        },
+        "P3_eps8": {
+          "win_win": 0.0,
+          "worst_card": 0.0,
+          "n_worlds": 250
+        },
+        "P2": {
+          "win_win": 0.0,
+          "worst_card": 0.0,
+          "n_worlds": 1000
+        },
+        "P1": {
+          "win_win": 0.0,
+          "worst_card": 0.0,
+          "n_worlds": 1000
+        }
+      },
+      "minimal_feasible_by_level": {
+        "0.8": null,
+        "0.9": null,
+        "0.95": null
+      }
+    }
+  },
+  "best_candidate_contract": {
+    "condition": "CEDT_P4",
+    "win_win": 0.051
+  },
+  "mrd_finding": "No candidate contract reaches the preregistered 0.90 (or 0.80) prior-predictive win-win probability under any prior card: prior-credible MRD infeasibility at the operator's reservation gains and leakage limits (Section 20.7 explicit infeasibility finding). Nearest candidates: CEDT_P4 at pooled 0.051."
+}

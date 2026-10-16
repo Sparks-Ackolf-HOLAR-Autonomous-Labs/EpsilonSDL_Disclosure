@@ -1,0 +1,876 @@
+{
+  "primary_g_R": 0.1,
+  "frozen_g_R": 0.2,
+  "sweep": {
+    "5pct": {
+      "CEDT_P1": {
+        "win_win": 0.0,
+        "r_gain": 0.27,
+        "h_gain": 0.456,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P2": {
+        "win_win": 0.0,
+        "r_gain": 0.327,
+        "h_gain": 0.377,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P3": {
+        "win_win": 0.017,
+        "r_gain": 0.36,
+        "h_gain": 0.343,
+        "leak_ok": 0.213,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.03592814371257485,
+          "strong_coupling": 0.015015015015015015,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P4": {
+        "win_win": 0.114,
+        "r_gain": 0.222,
+        "h_gain": 0.274,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.11377245508982035,
+          "strong_coupling": 0.09309309309309309,
+          "adversarial": 0.13513513513513514
+        },
+        "worst_card": 0.09309309309309309
+      },
+      "CTCE_P0": {
+        "win_win": 0.0,
+        "r_gain": 0.268,
+        "h_gain": 0.462,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P1": {
+        "win_win": 0.0,
+        "r_gain": 0.139,
+        "h_gain": 0.037,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P2": {
+        "win_win": 0.0,
+        "r_gain": 0.144,
+        "h_gain": 0.047,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3": {
+        "win_win": 0.007,
+        "r_gain": 0.16,
+        "h_gain": 0.059,
+        "leak_ok": 0.231,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.014970059880239521,
+          "strong_coupling": 0.006006006006006006,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P4": {
+        "win_win": 0.0,
+        "r_gain": 0.0,
+        "h_gain": 0.0,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "DTDE_P4": {
+        "win_win": 0.0,
+        "r_gain": 0.0,
+        "h_gain": 0.0,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P3_eps1": {
+        "win_win": 0.048,
+        "r_gain": 0.372,
+        "h_gain": 0.32,
+        "leak_ok": 0.388,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.08333333333333333,
+          "strong_coupling": 0.03614457831325301,
+          "adversarial": 0.024096385542168676
+        },
+        "worst_card": 0.024096385542168676
+      },
+      "CEDT_P3_eps2": {
+        "win_win": 0.056,
+        "r_gain": 0.356,
+        "h_gain": 0.3,
+        "leak_ok": 0.448,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.10714285714285714,
+          "strong_coupling": 0.04819277108433735,
+          "adversarial": 0.012048192771084338
+        },
+        "worst_card": 0.012048192771084338
+      },
+      "CEDT_P3_eps8": {
+        "win_win": 0.0,
+        "r_gain": 0.36,
+        "h_gain": 0.372,
+        "leak_ok": 0.0,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps1": {
+        "win_win": 0.004,
+        "r_gain": 0.124,
+        "h_gain": 0.064,
+        "leak_ok": 0.576,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.011904761904761904,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps2": {
+        "win_win": 0.008,
+        "r_gain": 0.12,
+        "h_gain": 0.06,
+        "leak_ok": 0.476,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.011904761904761904,
+          "strong_coupling": 0.012048192771084338,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps8": {
+        "win_win": 0.0,
+        "r_gain": 0.108,
+        "h_gain": 0.036,
+        "leak_ok": 0.0,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      }
+    },
+    "10pct": {
+      "CEDT_P1": {
+        "win_win": 0.0,
+        "r_gain": 0.222,
+        "h_gain": 0.456,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P2": {
+        "win_win": 0.0,
+        "r_gain": 0.278,
+        "h_gain": 0.377,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P3": {
+        "win_win": 0.016,
+        "r_gain": 0.324,
+        "h_gain": 0.343,
+        "leak_ok": 0.213,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.03293413173652695,
+          "strong_coupling": 0.015015015015015015,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P4": {
+        "win_win": 0.097,
+        "r_gain": 0.15,
+        "h_gain": 0.274,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.09281437125748503,
+          "strong_coupling": 0.09009009009009009,
+          "adversarial": 0.10810810810810811
+        },
+        "worst_card": 0.09009009009009009
+      },
+      "CTCE_P0": {
+        "win_win": 0.0,
+        "r_gain": 0.224,
+        "h_gain": 0.462,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P1": {
+        "win_win": 0.0,
+        "r_gain": 0.096,
+        "h_gain": 0.037,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P2": {
+        "win_win": 0.0,
+        "r_gain": 0.097,
+        "h_gain": 0.047,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3": {
+        "win_win": 0.007,
+        "r_gain": 0.11,
+        "h_gain": 0.059,
+        "leak_ok": 0.231,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.014970059880239521,
+          "strong_coupling": 0.006006006006006006,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P4": {
+        "win_win": 0.0,
+        "r_gain": 0.0,
+        "h_gain": 0.0,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "DTDE_P4": {
+        "win_win": 0.0,
+        "r_gain": 0.0,
+        "h_gain": 0.0,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P3_eps1": {
+        "win_win": 0.044,
+        "r_gain": 0.332,
+        "h_gain": 0.32,
+        "leak_ok": 0.388,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.08333333333333333,
+          "strong_coupling": 0.024096385542168676,
+          "adversarial": 0.024096385542168676
+        },
+        "worst_card": 0.024096385542168676
+      },
+      "CEDT_P3_eps2": {
+        "win_win": 0.056,
+        "r_gain": 0.316,
+        "h_gain": 0.3,
+        "leak_ok": 0.448,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.10714285714285714,
+          "strong_coupling": 0.04819277108433735,
+          "adversarial": 0.012048192771084338
+        },
+        "worst_card": 0.012048192771084338
+      },
+      "CEDT_P3_eps8": {
+        "win_win": 0.0,
+        "r_gain": 0.296,
+        "h_gain": 0.372,
+        "leak_ok": 0.0,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps1": {
+        "win_win": 0.004,
+        "r_gain": 0.084,
+        "h_gain": 0.064,
+        "leak_ok": 0.576,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.011904761904761904,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps2": {
+        "win_win": 0.008,
+        "r_gain": 0.084,
+        "h_gain": 0.06,
+        "leak_ok": 0.476,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.011904761904761904,
+          "strong_coupling": 0.012048192771084338,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps8": {
+        "win_win": 0.0,
+        "r_gain": 0.076,
+        "h_gain": 0.036,
+        "leak_ok": 0.0,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      }
+    },
+    "15pct": {
+      "CEDT_P1": {
+        "win_win": 0.0,
+        "r_gain": 0.177,
+        "h_gain": 0.456,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P2": {
+        "win_win": 0.0,
+        "r_gain": 0.213,
+        "h_gain": 0.377,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P3": {
+        "win_win": 0.016,
+        "r_gain": 0.28,
+        "h_gain": 0.343,
+        "leak_ok": 0.213,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.03293413173652695,
+          "strong_coupling": 0.015015015015015015,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P4": {
+        "win_win": 0.075,
+        "r_gain": 0.097,
+        "h_gain": 0.274,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.07784431137724551,
+          "strong_coupling": 0.08408408408408409,
+          "adversarial": 0.06306306306306306
+        },
+        "worst_card": 0.06306306306306306
+      },
+      "CTCE_P0": {
+        "win_win": 0.0,
+        "r_gain": 0.177,
+        "h_gain": 0.462,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P1": {
+        "win_win": 0.0,
+        "r_gain": 0.082,
+        "h_gain": 0.037,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P2": {
+        "win_win": 0.0,
+        "r_gain": 0.082,
+        "h_gain": 0.047,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3": {
+        "win_win": 0.005,
+        "r_gain": 0.094,
+        "h_gain": 0.059,
+        "leak_ok": 0.231,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.011976047904191617,
+          "strong_coupling": 0.003003003003003003,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P4": {
+        "win_win": 0.0,
+        "r_gain": 0.0,
+        "h_gain": 0.0,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "DTDE_P4": {
+        "win_win": 0.0,
+        "r_gain": 0.0,
+        "h_gain": 0.0,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P3_eps1": {
+        "win_win": 0.044,
+        "r_gain": 0.296,
+        "h_gain": 0.32,
+        "leak_ok": 0.388,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.08333333333333333,
+          "strong_coupling": 0.024096385542168676,
+          "adversarial": 0.024096385542168676
+        },
+        "worst_card": 0.024096385542168676
+      },
+      "CEDT_P3_eps2": {
+        "win_win": 0.056,
+        "r_gain": 0.28,
+        "h_gain": 0.3,
+        "leak_ok": 0.448,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.10714285714285714,
+          "strong_coupling": 0.04819277108433735,
+          "adversarial": 0.012048192771084338
+        },
+        "worst_card": 0.012048192771084338
+      },
+      "CEDT_P3_eps8": {
+        "win_win": 0.0,
+        "r_gain": 0.268,
+        "h_gain": 0.372,
+        "leak_ok": 0.0,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps1": {
+        "win_win": 0.004,
+        "r_gain": 0.072,
+        "h_gain": 0.064,
+        "leak_ok": 0.576,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.011904761904761904,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps2": {
+        "win_win": 0.008,
+        "r_gain": 0.072,
+        "h_gain": 0.06,
+        "leak_ok": 0.476,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.011904761904761904,
+          "strong_coupling": 0.012048192771084338,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps8": {
+        "win_win": 0.0,
+        "r_gain": 0.064,
+        "h_gain": 0.036,
+        "leak_ok": 0.0,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      }
+    },
+    "20pct": {
+      "CEDT_P1": {
+        "win_win": 0.0,
+        "r_gain": 0.149,
+        "h_gain": 0.456,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P2": {
+        "win_win": 0.0,
+        "r_gain": 0.156,
+        "h_gain": 0.377,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P3": {
+        "win_win": 0.014,
+        "r_gain": 0.224,
+        "h_gain": 0.343,
+        "leak_ok": 0.213,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.029940119760479042,
+          "strong_coupling": 0.012012012012012012,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P4": {
+        "win_win": 0.051,
+        "r_gain": 0.059,
+        "h_gain": 0.274,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.05688622754491018,
+          "strong_coupling": 0.07207207207207207,
+          "adversarial": 0.024024024024024024
+        },
+        "worst_card": 0.024024024024024024
+      },
+      "CTCE_P0": {
+        "win_win": 0.0,
+        "r_gain": 0.146,
+        "h_gain": 0.462,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P1": {
+        "win_win": 0.0,
+        "r_gain": 0.07,
+        "h_gain": 0.037,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P2": {
+        "win_win": 0.0,
+        "r_gain": 0.073,
+        "h_gain": 0.047,
+        "leak_ok": 0.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3": {
+        "win_win": 0.005,
+        "r_gain": 0.083,
+        "h_gain": 0.059,
+        "leak_ok": 0.231,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.011976047904191617,
+          "strong_coupling": 0.003003003003003003,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P4": {
+        "win_win": 0.0,
+        "r_gain": 0.0,
+        "h_gain": 0.0,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "DTDE_P4": {
+        "win_win": 0.0,
+        "r_gain": 0.0,
+        "h_gain": 0.0,
+        "leak_ok": 1.0,
+        "n_worlds": 1000,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CEDT_P3_eps1": {
+        "win_win": 0.04,
+        "r_gain": 0.272,
+        "h_gain": 0.32,
+        "leak_ok": 0.388,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.07142857142857142,
+          "strong_coupling": 0.024096385542168676,
+          "adversarial": 0.024096385542168676
+        },
+        "worst_card": 0.024096385542168676
+      },
+      "CEDT_P3_eps2": {
+        "win_win": 0.048,
+        "r_gain": 0.244,
+        "h_gain": 0.3,
+        "leak_ok": 0.448,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.09523809523809523,
+          "strong_coupling": 0.03614457831325301,
+          "adversarial": 0.012048192771084338
+        },
+        "worst_card": 0.012048192771084338
+      },
+      "CEDT_P3_eps8": {
+        "win_win": 0.0,
+        "r_gain": 0.224,
+        "h_gain": 0.372,
+        "leak_ok": 0.0,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps1": {
+        "win_win": 0.004,
+        "r_gain": 0.068,
+        "h_gain": 0.064,
+        "leak_ok": 0.576,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.011904761904761904,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps2": {
+        "win_win": 0.008,
+        "r_gain": 0.068,
+        "h_gain": 0.06,
+        "leak_ok": 0.476,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.011904761904761904,
+          "strong_coupling": 0.012048192771084338,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      },
+      "CTDE_P3_eps8": {
+        "win_win": 0.0,
+        "r_gain": 0.06,
+        "h_gain": 0.036,
+        "leak_ok": 0.0,
+        "n_worlds": 250,
+        "per_card": {
+          "base": 0.0,
+          "strong_coupling": 0.0,
+          "adversarial": 0.0
+        },
+        "worst_card": 0.0
+      }
+    }
+  },
+  "primary_ranking": [
+    [
+      "CEDT_P4",
+      0.097
+    ],
+    [
+      "CEDT_P3_eps2",
+      0.056
+    ],
+    [
+      "CEDT_P3_eps1",
+      0.044
+    ],
+    [
+      "CEDT_P3",
+      0.016
+    ],
+    [
+      "CTDE_P3_eps2",
+      0.008
+    ],
+    [
+      "CTDE_P3",
+      0.007
+    ]
+  ],
+  "verdict_thresholds": {
+    "0.80": [],
+    "0.90": []
+  }
+}

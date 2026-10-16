@@ -1,0 +1,14 @@
+{"name": "TiS2_1T_s5_k2", "cfg": "lean", "ranks": 32, "npool": 1, "wall_s": 442.41, "converged": true, "ram_mb_per_proc": 583.59, "ram_total": null, "nelec": 600.0, "nh": 0.0614, "nh_cum": 0.0614}
+{"name": "TiS2_1T_s5_k2", "cfg": "fast", "ranks": 32, "npool": 4, "wall_s": 816.91, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 600.0, "nh": 0.1135, "nh_cum": 0.1749}
+{"name": "MoSe2_2H_s5_k2", "cfg": "lean", "ranks": 32, "npool": 1, "wall_s": 1130.43, "converged": true, "ram_mb_per_proc": 746.75, "ram_total": null, "nelec": 1300.0, "nh": 0.157, "nh_cum": 0.3319}
+{"name": "MoSe2_2H_s5_k2", "cfg": "fast", "ranks": 32, "npool": 4, "wall_s": 2238.45, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 1300.0, "nh": 0.3109, "nh_cum": 0.6428}
+{"name": "WTe2_2H_s5_k2", "cfg": "lean", "ranks": 32, "npool": 1, "wall_s": 1670.93, "converged": true, "ram_mb_per_proc": 985.52, "ram_total": null, "nelec": 1300.0, "nh": 0.2321, "nh_cum": 0.8749}
+{"name": "WTe2_2H_s5_k2", "cfg": "fast", "ranks": 32, "npool": 4, "wall_s": 2718.75, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 1300.0, "nh": 0.3776, "nh_cum": 1.2525}
+{"name": "TiS2_1T_s6_k2", "cfg": "lean", "ranks": 32, "npool": 1, "wall_s": 1199.66, "converged": true, "ram_mb_per_proc": 988.55, "ram_total": null, "nelec": 864.0, "nh": 0.1666, "nh_cum": 1.4191}
+{"name": "TiS2_1T_s6_k2", "cfg": "fast", "ranks": 32, "npool": 4, "wall_s": 2541.76, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 864.0, "nh": 0.353, "nh_cum": 1.7721}
+{"name": "MoSe2_2H_s6_k2", "cfg": "lean", "ranks": 32, "npool": 1, "wall_s": 3777.01, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 1872.0, "nh": 0.5246, "nh_cum": 2.2967}
+{"name": "MoSe2_2H_s6_k2", "cfg": "fast", "ranks": 32, "npool": 4, "wall_s": 7179.98, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 1872.0, "nh": 0.9972, "nh_cum": 3.2939}
+{"name": "WTe2_2H_s6_k2", "cfg": "lean", "ranks": 32, "npool": 1, "wall_s": 4868.15, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 1872.0, "nh": 0.6761, "nh_cum": 3.9701}
+{"name": "WTe2_2H_s6_k2", "cfg": "fast", "ranks": 32, "npool": 4, "wall_s": 9614.53, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 1872.0, "nh": 1.3354, "nh_cum": 5.3054}
+{"name": "MoSe2_2H_s8_k1", "cfg": "lean", "ranks": 32, "npool": 1, "wall_s": 11766.58, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 3328.0, "nh": 1.6342, "nh_cum": 6.9397}
+{"name": "MoSe2_2H_s8_k1", "cfg": "fast", "ranks": 32, "npool": 4, "wall_s": 43014.48, "converged": true, "ram_mb_per_proc": null, "ram_total": null, "nelec": 3328.0, "nh": 5.9742, "nh_cum": 12.9139}

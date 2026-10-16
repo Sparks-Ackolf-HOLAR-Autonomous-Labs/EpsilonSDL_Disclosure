@@ -1,0 +1,22 @@
+{
+ "figure_script": "papers/paperA_disclosure_theory/figures/make_figures.py",
+ "reads": [
+  "billing_regrade/billing_regrade.json",
+  "ceiling_diagnosis/results/ceiling_diagnosis.json",
+  "centralization_surface/results/scaling.json",
+  "centralization_surface/results/schedules.json",
+  "centralization_surface/results/surface_P1.json",
+  "centralization_surface/results/surface_P2.json",
+  "centralization_surface/results/surface_P3.json",
+  "centralization_surface/results/surface_P4.json",
+  "centralization_surface/results/surface_scale.json",
+  "paired_comparison_1/results/campaigns.jsonl",
+  "paired_comparison_2/f3_repair/results/repair_graded.json",
+  "paired_comparison_2/results/wire_attack_results.json",
+  "metric_redesign/metric_study.json",
+  "result_sharing/results/broker_decoy.json",
+  "result_sharing/results/broker_exchange.json",
+  "result_sharing/results/peer_exchange.json",
+  "timing_masking/mask_results.json"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "candidate": "TiS2_1T",
+ "restart_count": 0,
+ "node": "notch332",
+ "ranks": 32,
+ "npool": "2",
+ "ini_rc": 0,
+ "ini_wall_s": 1487.7821083068848,
+ "ini_E_Ry": -1485.39387065,
+ "ini_cpu_s": 1357.7,
+ "fin_rc": 0,
+ "fin_wall_s": 1424.8304541110992,
+ "fin_E_Ry": -1485.39387069,
+ "fin_cpu_s": 1304.91,
+ "neb_restart_mode": "from_scratch",
+ "neb_rc": 0,
+ "neb_wall_s": 9550.689286231995,
+ "E_hop_eV": 1.184536,
+ "E_hop_back_eV": 1.184537,
+ "neb_converged": true,
+ "neb_iterations": 27,
+ "neb_cpu_s": 8700.0,
+ "profile_eV": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   0.2462157784,
+   0.8116911888
+  ],
+  [
+   0.4999998649,
+   1.1845361809
+  ],
+  [
+   0.7537804417,
+   0.8117323764
+  ],
+  [
+   1.0,
+   -9.885e-07
+  ]
+ ]
+}

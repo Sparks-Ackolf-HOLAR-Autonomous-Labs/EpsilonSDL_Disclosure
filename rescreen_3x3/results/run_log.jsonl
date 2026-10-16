@@ -1,0 +1,2 @@
+{"event": "start", "job": "2048736", "part": "granite-guest", "node": "grn068", "restart": 0, "t": 1790099481.8258216}
+{"event": "done", "job": "2048736", "qualifiers": ["HfS2_1T", "HfS2_2H", "MoS2_2H", "MoSe2_2H", "MoTe2_2H", "WS2_2H", "WSe2_2H", "WTe2_2H"], "t": 1790123029.719319}

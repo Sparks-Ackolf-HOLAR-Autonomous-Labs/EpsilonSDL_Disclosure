@@ -1,0 +1,23 @@
+{
+ "status": "pass",
+ "returncode": 0,
+ "expected_figures": [
+  "fig1_contracts.pdf",
+  "fig2_metric.pdf",
+  "fig3_surface.pdf",
+  "fig4_cases.pdf",
+  "fig5_live2.pdf",
+  "fig6_peer.pdf",
+  "figA1_annex.pdf"
+ ],
+ "regenerated": [
+  "fig1_contracts.pdf",
+  "fig2_metric.pdf",
+  "fig3_surface.pdf",
+  "fig4_cases.pdf",
+  "fig5_live2.pdf",
+  "fig6_peer.pdf",
+  "figA1_annex.pdf"
+ ],
+ "stderr_tail": ""
+}

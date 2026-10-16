@@ -1,0 +1,54 @@
+BEGIN
+BEGIN_PATH_INPUT
+&PATH
+  restart_mode = '@RESTART@'
+  string_method = 'neb'
+  nstep_path = 120
+  num_of_images = 5
+  opt_scheme = 'broyden'
+  CI_scheme = 'auto'
+  path_thr = 0.1
+/
+END_PATH_INPUT
+BEGIN_ENGINE_INPUT
+&CONTROL
+  prefix = 'TiTe2_1T_neb'
+  pseudo_dir = './pseudos'
+  outdir = './out_TiTe2_1T_neb'
+  disk_io = 'low'
+  forc_conv_thr = 1.0d-3
+  etot_conv_thr = 1.0d-5
+  nstep = 150
+/
+&SYSTEM
+  ibrav = 4
+  a = 11.273100
+  c = 18.0
+  nat = 26
+  ntyp = 2
+  ecutwfc = 40.0
+  ecutrho = 320.0
+  occupations = 'smearing'
+  smearing = 'cold'
+  degauss = 0.015
+/
+&ELECTRONS
+  mixing_beta = 0.3
+  conv_thr = 1.0d-7
+  electron_maxstep = 150
+/
+ATOMIC_SPECIES
+  Ti  47.867  ti_pbe_v1.4.uspp.F.UPF
+  Te  127.6  te_pbe_v1.uspp.F.UPF
+BEGIN_POSITIONS
+FIRST_IMAGE
+ATOMIC_POSITIONS crystal
+@FIRST@
+LAST_IMAGE
+ATOMIC_POSITIONS crystal
+@LAST@
+END_POSITIONS
+K_POINTS automatic
+  3 3 1 0 0 0
+END_ENGINE_INPUT
+END

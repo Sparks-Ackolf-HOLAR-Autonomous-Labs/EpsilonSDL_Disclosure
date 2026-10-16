@@ -1,0 +1,51 @@
+{
+ "WS2_2H": {
+  "nat": 53,
+  "removed_index": 28,
+  "moved_index_after_removal": 33,
+  "hop_distance_A": 3.18359999968164,
+  "a_supercell_A": 9.5508
+ },
+ "MoS2_2H": {
+  "nat": 53,
+  "removed_index": 28,
+  "moved_index_after_removal": 33,
+  "hop_distance_A": 3.1817999996818203,
+  "a_supercell_A": 9.5454
+ },
+ "HfS2_1T": {
+  "nat": 26,
+  "removed_index": 13,
+  "moved_index_after_removal": 21,
+  "hop_distance_A": 3.6461999996353787,
+  "a_supercell_A": 10.9386
+ },
+ "TiS2_1T": {
+  "nat": 26,
+  "removed_index": 13,
+  "moved_index_after_removal": 21,
+  "hop_distance_A": 3.4129999996586986,
+  "a_supercell_A": 10.239
+ },
+ "ZrTe2_1T": {
+  "nat": 26,
+  "removed_index": 13,
+  "moved_index_after_removal": 10,
+  "hop_distance_A": 3.9750999996024903,
+  "a_supercell_A": 11.9253
+ },
+ "TiTe2_1T": {
+  "nat": 26,
+  "removed_index": 13,
+  "moved_index_after_removal": 21,
+  "hop_distance_A": 3.7576999996242293,
+  "a_supercell_A": 11.2731
+ },
+ "MoS2_1T": {
+  "nat": 26,
+  "removed_index": 13,
+  "moved_index_after_removal": 21,
+  "hop_distance_A": 3.1858999996814084,
+  "a_supercell_A": 9.5577
+ }
+}

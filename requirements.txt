@@ -1,0 +1,10 @@
+# Python packages for the figure generator and the analysis scripts
+# (Python 3.10 or later). Install with: pip install -r requirements.txt
+matplotlib>=3.8
+numpy>=1.26
+scipy>=1.11
+
+# Optional: needed only to re-run the computations named below.
+# ase>=3.23    # atomic structures for the vacancy-barrier inputs; used in vacancy_barriers/
+# mace-torch>=0.3    # MACE-MP-0 barrier estimates; used in vacancy_barriers/
+# pysr>=0.19    # symbolic-regression fit of the cost model (needs Julia); used in stage2_twin_fit/

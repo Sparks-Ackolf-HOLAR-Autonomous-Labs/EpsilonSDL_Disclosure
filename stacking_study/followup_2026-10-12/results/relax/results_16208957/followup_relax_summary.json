@@ -1,0 +1,174 @@
+{
+ "mode": "relax",
+ "records": [
+  {
+   "candidate": "TiS2_mono2H",
+   "phase": "2H",
+   "metal": "Ti",
+   "chalcogen": "S",
+   "stages": {
+    "F1": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 15.3,
+     "node_hours": 0.0011,
+     "peak_rank_rss_gb": 0.178,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/relax/work/TiS2_mono2H/f1.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -167.700543,
+     "total_force_ry_au": null,
+     "nelec": 24.0,
+     "relax_converged": false
+    },
+    "F2": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 183.7,
+     "node_hours": 0.0128,
+     "peak_rank_rss_gb": 0.218,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/relax/work/TiS2_mono2H/f2.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -167.70230024,
+     "total_force_ry_au": 0.000131,
+     "nelec": 24.0,
+     "relax_converged": true,
+     "a_relaxed_angstrom": 3.3436,
+     "final_positions_crystal": [
+      [
+       "Ti",
+       0.3333333333,
+       0.6666666667,
+       0.5
+      ],
+      [
+       "S",
+       0.6666666667,
+       0.3333333333,
+       0.5753952651
+      ],
+      [
+       "S",
+       0.6666666667,
+       0.3333333333,
+       0.4246047349
+      ]
+     ]
+    },
+    "F3": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 13.3,
+     "node_hours": 0.0009,
+     "peak_rank_rss_gb": 0.176,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/relax/work/TiS2_mono2H/f3.out",
+     "vbm_ev": -2.6085,
+     "cbm_ev": -1.8702,
+     "gap_ev": 0.7383,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "a_relaxed_angstrom": 3.3436,
+   "gap_ev": 0.7383,
+   "qualifier": false
+  },
+  {
+   "candidate": "ZrS2_bi3R",
+   "phase": "2H",
+   "metal": "Zr",
+   "chalcogen": "S",
+   "stages": {
+    "F1": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 26.2,
+     "node_hours": 0.0018,
+     "peak_rank_rss_gb": 0.221,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/relax/work/ZrS2_bi3R/f1.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -295.22280044,
+     "total_force_ry_au": null,
+     "nelec": 48.0,
+     "relax_converged": false
+    },
+    "F2": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 941.2,
+     "node_hours": 0.0654,
+     "peak_rank_rss_gb": 0.25,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/relax/work/ZrS2_bi3R/f2.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -295.42951852,
+     "total_force_ry_au": 4.6e-05,
+     "nelec": 48.0,
+     "relax_converged": true,
+     "a_relaxed_angstrom": 3.54,
+     "final_positions_crystal": [
+      [
+       "Zr",
+       0.3333333333,
+       0.6666666667,
+       0.3993029403
+      ],
+      [
+       "S",
+       0.6666666667,
+       0.3333333333,
+       0.4516921579
+      ],
+      [
+       "S",
+       0.6666666667,
+       0.3333333333,
+       0.3468446159
+      ],
+      [
+       "Zr",
+       0.0,
+       0.0,
+       0.6006783393
+      ],
+      [
+       "S",
+       0.3333333333,
+       0.6666666667,
+       0.6532183595
+      ],
+      [
+       "S",
+       0.3333333333,
+       0.6666666667,
+       0.5482635871
+      ]
+     ]
+    },
+    "F3": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 29.9,
+     "node_hours": 0.0021,
+     "peak_rank_rss_gb": 0.207,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/relax/work/ZrS2_bi3R/f3.out",
+     "vbm_ev": -0.8605,
+     "cbm_ev": -0.2531,
+     "gap_ev": 0.6074,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "a_relaxed_angstrom": 3.54,
+   "gap_ev": 0.6074,
+   "qualifier": false
+  }
+ ],
+ "node_hours": 0.084,
+ "qe_calls": 6,
+ "wall_hours": 0.277
+}

@@ -1,0 +1,6 @@
+{"name": "TiS2_1T_s3_k6", "nodes": 4, "ntasks": 64, "wall_s": 230, "converged": true}
+{"name": "TiS2_1T_s3_k6", "nodes": 1, "ntasks": 16, "wall_s": 383, "converged": true}
+{"name": "MoSe2_2H_s3_k6", "nodes": 4, "ntasks": 64, "wall_s": 557, "converged": true}
+{"name": "MoSe2_2H_s3_k6", "nodes": 1, "ntasks": 16, "wall_s": 873, "converged": true}
+{"name": "TiS2_1T_s3_k6", "nodes": 2, "ntasks": 32, "wall_s": 409, "converged": true}
+{"name": "MoSe2_2H_s3_k6", "nodes": 2, "ntasks": 32, "wall_s": 1067, "converged": true}

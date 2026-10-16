@@ -1,0 +1,49 @@
+{
+ "n_done": 7,
+ "n_planned": 7,
+ "table": {
+  "WS2_2H": {
+   "mace": 1.0130615234375,
+   "dft": 2.659808,
+   "converged": true
+  },
+  "MoS2_2H": {
+   "mace": 0.9022216796875,
+   "dft": 2.143349,
+   "converged": true
+  },
+  "HfS2_1T": {
+   "mace": 0.86224365234375,
+   "dft": 1.357674,
+   "converged": true
+  },
+  "TiS2_1T": {
+   "mace": 0.716552734375,
+   "dft": 1.184536,
+   "converged": true
+  },
+  "ZrTe2_1T": {
+   "mace": 0.481201171875,
+   "dft": 0.907677,
+   "converged": true
+  },
+  "TiTe2_1T": {
+   "mace": 0.403839111328125,
+   "dft": 0.850545,
+   "converged": true
+  },
+  "MoS2_1T": {
+   "mace": 0.22857666015625,
+   "dft": 1.549921,
+   "converged": true
+  }
+ },
+ "N1": true,
+ "N2": true,
+ "spearman": 0.642857142857143,
+ "N3": true,
+ "stable_spread_eV": 1.809263,
+ "rate_ratio_1000K": 1313059712.112945,
+ "N4": true,
+ "N5": true
+}

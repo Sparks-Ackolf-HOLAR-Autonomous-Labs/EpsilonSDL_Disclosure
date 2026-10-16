@@ -1,0 +1,5 @@
+{"name": "MoSe2_2H_s6_k2", "tag": "solo16", "ranks": 16, "wall_s": 6509.76, "converged": true, "ram_mb_per_proc": 2693.12, "ram_total": "42.12 GB", "nh": 0.4521, "nh_cum": 0.4521}
+{"name": "WTe2_2H_s6_k2", "tag": "solo16", "ranks": 16, "wall_s": 8591.24, "converged": true, "ram_mb_per_proc": 3358.72, "ram_total": "52.50 GB", "nh": 0.5966, "nh_cum": 1.0487}
+{"name": "MoSe2_2H_s6_k2", "tag": "co16", "ranks": 16, "wall_s": 6760.92, "converged": true, "ram_mb_per_proc": 2693.12, "ram_total": "42.12 GB", "nh": 0.4695, "nh_cum": 1.5182}
+{"name": "WTe2_2H_s6_k2", "tag": "co16", "ranks": 16, "wall_s": 8800.21, "converged": true, "ram_mb_per_proc": 3358.72, "ram_total": "52.50 GB", "nh": 0.6111, "nh_cum": 2.1293}
+{"tag": "co16_makespan", "makespan_s": 8800.23}

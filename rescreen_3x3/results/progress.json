@@ -1,0 +1,295 @@
+{
+ "done": [
+  {
+   "candidate": "TiS2_1T",
+   "gap_ev": null,
+   "qualifier": false,
+   "nelec": 216.0,
+   "f2_cedt_cpu_s": 92.04,
+   "f2_dtde_cpu_s": 95.49,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.964,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "TiS2_2H",
+   "gap_ev": null,
+   "qualifier": false,
+   "nelec": 432.0,
+   "f2_cedt_cpu_s": 260.07,
+   "f2_dtde_cpu_s": null,
+   "f2_config_cost_ratio_cedt_over_dtde": null,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "TiSe2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 216.0,
+   "f2_cedt_cpu_s": 90.17,
+   "f2_dtde_cpu_s": 106.24,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.849,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "TiSe2_2H",
+   "gap_ev": 0.456,
+   "qualifier": false,
+   "nelec": 432.0,
+   "f2_cedt_cpu_s": 299.48,
+   "f2_dtde_cpu_s": null,
+   "f2_config_cost_ratio_cedt_over_dtde": null,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "TiTe2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 216.0,
+   "f2_cedt_cpu_s": 137.38,
+   "f2_dtde_cpu_s": null,
+   "f2_config_cost_ratio_cedt_over_dtde": null,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "TiTe2_2H",
+   "gap_ev": 0.1242,
+   "qualifier": false,
+   "nelec": 432.0,
+   "f2_cedt_cpu_s": 438.54,
+   "f2_dtde_cpu_s": 444.76,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.986,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "ZrS2_1T",
+   "gap_ev": null,
+   "qualifier": false,
+   "nelec": 216.0,
+   "f2_cedt_cpu_s": 87.08,
+   "f2_dtde_cpu_s": 86.0,
+   "f2_config_cost_ratio_cedt_over_dtde": 1.013,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "ZrS2_2H",
+   "gap_ev": 0.8644,
+   "qualifier": false,
+   "nelec": 432.0,
+   "f2_cedt_cpu_s": 259.19,
+   "f2_dtde_cpu_s": 239.24,
+   "f2_config_cost_ratio_cedt_over_dtde": 1.083,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "ZrSe2_1T",
+   "gap_ev": null,
+   "qualifier": false,
+   "nelec": 216.0,
+   "f2_cedt_cpu_s": 76.75,
+   "f2_dtde_cpu_s": 80.02,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.959,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "ZrSe2_2H",
+   "gap_ev": 0.62,
+   "qualifier": false,
+   "nelec": 432.0,
+   "f2_cedt_cpu_s": 232.4,
+   "f2_dtde_cpu_s": 252.14,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.922,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "ZrTe2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 216.0,
+   "f2_cedt_cpu_s": 101.03,
+   "f2_dtde_cpu_s": 93.96,
+   "f2_config_cost_ratio_cedt_over_dtde": 1.075,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "ZrTe2_2H",
+   "gap_ev": 0.2907,
+   "qualifier": false,
+   "nelec": 432.0,
+   "f2_cedt_cpu_s": 270.26,
+   "f2_dtde_cpu_s": 287.59,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.94,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "HfS2_1T",
+   "gap_ev": 1.3299,
+   "qualifier": true,
+   "nelec": 216.0,
+   "f2_cedt_cpu_s": 105.17,
+   "f2_dtde_cpu_s": 115.13,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.913,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "HfS2_2H",
+   "gap_ev": 1.0143,
+   "qualifier": true,
+   "nelec": 432.0,
+   "f2_cedt_cpu_s": null,
+   "f2_dtde_cpu_s": 275.77,
+   "f2_config_cost_ratio_cedt_over_dtde": null,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "HfSe2_1T",
+   "gap_ev": 0.6467,
+   "qualifier": false,
+   "nelec": 216.0,
+   "f2_cedt_cpu_s": 119.17,
+   "f2_dtde_cpu_s": null,
+   "f2_config_cost_ratio_cedt_over_dtde": null,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "HfTe2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 216.0,
+   "f2_cedt_cpu_s": 148.93,
+   "f2_dtde_cpu_s": null,
+   "f2_config_cost_ratio_cedt_over_dtde": null,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "HfTe2_2H",
+   "gap_ev": 0.3042,
+   "qualifier": false,
+   "nelec": 432.0,
+   "f2_cedt_cpu_s": 376.71,
+   "f2_dtde_cpu_s": null,
+   "f2_config_cost_ratio_cedt_over_dtde": null,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "MoS2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 234.0,
+   "f2_cedt_cpu_s": 76.19,
+   "f2_dtde_cpu_s": 71.74,
+   "f2_config_cost_ratio_cedt_over_dtde": 1.062,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "MoS2_2H",
+   "gap_ev": 1.5573,
+   "qualifier": true,
+   "nelec": 468.0,
+   "f2_cedt_cpu_s": 203.88,
+   "f2_dtde_cpu_s": 200.36,
+   "f2_config_cost_ratio_cedt_over_dtde": 1.018,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "MoSe2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 234.0,
+   "f2_cedt_cpu_s": 92.6,
+   "f2_dtde_cpu_s": 83.8,
+   "f2_config_cost_ratio_cedt_over_dtde": 1.105,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "MoSe2_2H",
+   "gap_ev": 1.449,
+   "qualifier": true,
+   "nelec": 468.0,
+   "f2_cedt_cpu_s": 226.63,
+   "f2_dtde_cpu_s": 231.38,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.979,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "MoTe2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 234.0,
+   "f2_cedt_cpu_s": 109.46,
+   "f2_dtde_cpu_s": 103.78,
+   "f2_config_cost_ratio_cedt_over_dtde": 1.055,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "MoTe2_2H",
+   "gap_ev": 1.0347,
+   "qualifier": true,
+   "nelec": 468.0,
+   "f2_cedt_cpu_s": 252.81,
+   "f2_dtde_cpu_s": 267.57,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.945,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "WS2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 234.0,
+   "f2_cedt_cpu_s": 86.67,
+   "f2_dtde_cpu_s": 90.73,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.955,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "WS2_2H",
+   "gap_ev": 1.77,
+   "qualifier": true,
+   "nelec": 468.0,
+   "f2_cedt_cpu_s": 202.31,
+   "f2_dtde_cpu_s": 220.31,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.918,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "WSe2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 234.0,
+   "f2_cedt_cpu_s": 80.77,
+   "f2_dtde_cpu_s": 79.5,
+   "f2_config_cost_ratio_cedt_over_dtde": 1.016,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "WSe2_2H",
+   "gap_ev": 1.5507,
+   "qualifier": true,
+   "nelec": 468.0,
+   "f2_cedt_cpu_s": 228.56,
+   "f2_dtde_cpu_s": 231.68,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.987,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "WTe2_1T",
+   "gap_ev": 0.0,
+   "qualifier": false,
+   "nelec": 234.0,
+   "f2_cedt_cpu_s": 107.95,
+   "f2_dtde_cpu_s": 109.79,
+   "f2_config_cost_ratio_cedt_over_dtde": 0.983,
+   "ladder_ok": true
+  },
+  {
+   "candidate": "WTe2_2H",
+   "gap_ev": 1.0268,
+   "qualifier": true,
+   "nelec": 468.0,
+   "f2_cedt_cpu_s": null,
+   "f2_dtde_cpu_s": 250.26,
+   "f2_config_cost_ratio_cedt_over_dtde": null,
+   "ladder_ok": true
+  }
+ ],
+ "restart": 0
+}

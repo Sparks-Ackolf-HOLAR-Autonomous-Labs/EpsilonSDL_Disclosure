@@ -1,0 +1,561 @@
+{
+ "mode": "socph",
+ "records": [
+  {
+   "candidate": "HfS2_mono2H",
+   "pbe_gap_ev": 1.0988,
+   "restarts": 0,
+   "F4SCF": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 19.0,
+    "node_hours": 0.0013,
+    "peak_rank_rss_gb": 0.259,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/HfS2_mono2H_ph/f4scf.out",
+    "scf_converged": true,
+    "job_done": true,
+    "etot_ry": -207.46291224,
+    "total_force_ry_au": null,
+    "nelec": 24.0,
+    "relax_converged": false
+   },
+   "F4": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 253.2,
+    "node_hours": 0.0176,
+    "peak_rank_rss_gb": 0.218,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/HfS2_mono2H_ph/f4.out",
+    "ph_done": true,
+    "freqs_cm1": [
+     -24.563779,
+     -17.193989,
+     -17.193989,
+     99.285613,
+     99.285613,
+     229.966613,
+     229.966613,
+     322.262906,
+     358.378069
+    ],
+    "min_freq_cm1": -24.563779,
+    "gamma_unstable": false
+   }
+  },
+  {
+   "candidate": "HfS2_mono2H",
+   "phase": "2H-single-layer",
+   "metal": "Hf",
+   "chalcogen": "S",
+   "pbe_gap_ev_scalar_rel": 1.0988,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 67.3,
+     "node_hours": 0.0047,
+     "peak_rank_rss_gb": 0.376,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/HfS2_mono2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -833.4692183,
+     "nelec": 24.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 75.9,
+     "node_hours": 0.0053,
+     "peak_rank_rss_gb": 0.29,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/HfS2_mono2H/socnscf.out",
+     "vbm_ev": -2.6485,
+     "cbm_ev": -1.545,
+     "gap_ev": 1.1035,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.1035,
+   "soc_metallic": false,
+   "soc_shift_ev": 0.0047
+  },
+  {
+   "candidate": "MoS2_mono2H",
+   "pbe_gap_ev": 1.6735,
+   "restarts": 0,
+   "F4SCF": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 13.6,
+    "node_hours": 0.0009,
+    "peak_rank_rss_gb": 0.188,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoS2_mono2H_ph/f4scf.out",
+    "scf_converged": true,
+    "job_done": true,
+    "etot_ry": -187.73205128,
+    "total_force_ry_au": null,
+    "nelec": 26.0,
+    "relax_converged": false
+   },
+   "F4": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 159.4,
+    "node_hours": 0.0111,
+    "peak_rank_rss_gb": 0.199,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoS2_mono2H_ph/f4.out",
+    "ph_done": true,
+    "freqs_cm1": [
+     2.936312,
+     2.936312,
+     14.360102,
+     276.58723,
+     276.58723,
+     373.58522,
+     373.58522,
+     396.641081,
+     459.049113
+    ],
+    "min_freq_cm1": 2.936312,
+    "gamma_unstable": false
+   }
+  },
+  {
+   "candidate": "MoS2_mono2H",
+   "phase": "2H-single-layer",
+   "metal": "Mo",
+   "chalcogen": "S",
+   "pbe_gap_ev_scalar_rel": 1.6735,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 44.7,
+     "node_hours": 0.0031,
+     "peak_rank_rss_gb": 0.335,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoS2_mono2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -497.1506064,
+     "nelec": 26.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 55.0,
+     "node_hours": 0.0038,
+     "peak_rank_rss_gb": 0.262,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoS2_mono2H/socnscf.out",
+     "vbm_ev": -0.9119,
+     "cbm_ev": 0.6948,
+     "gap_ev": 1.6067,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.6067,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.0668
+  },
+  {
+   "candidate": "MoSe2_mono2H",
+   "pbe_gap_ev": 1.4587,
+   "restarts": 0,
+   "F4SCF": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 12.0,
+    "node_hours": 0.0008,
+    "peak_rank_rss_gb": 0.188,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoSe2_mono2H_ph/f4scf.out",
+    "scf_converged": true,
+    "job_done": true,
+    "etot_ry": -226.69480606,
+    "total_force_ry_au": null,
+    "nelec": 26.0,
+    "relax_converged": false
+   },
+   "F4": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 201.4,
+    "node_hours": 0.014,
+    "peak_rank_rss_gb": 0.197,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoSe2_mono2H_ph/f4.out",
+    "ph_done": true,
+    "freqs_cm1": [
+     -3.150239,
+     13.995582,
+     13.995582,
+     162.246274,
+     162.246274,
+     235.041274,
+     277.078948,
+     277.078948,
+     344.070094
+    ],
+    "min_freq_cm1": -3.150239,
+    "gamma_unstable": false
+   }
+  },
+  {
+   "candidate": "MoSe2_mono2H",
+   "phase": "2H-single-layer",
+   "metal": "Mo",
+   "chalcogen": "Se",
+   "pbe_gap_ev_scalar_rel": 1.4587,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 44.6,
+     "node_hours": 0.0031,
+     "peak_rank_rss_gb": 0.343,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoSe2_mono2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -743.53997211,
+     "nelec": 26.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 57.5,
+     "node_hours": 0.004,
+     "peak_rank_rss_gb": 0.27,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoSe2_mono2H/socnscf.out",
+     "vbm_ev": -0.2477,
+     "cbm_ev": 1.1038,
+     "gap_ev": 1.3515,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.3515,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.1072
+  },
+  {
+   "candidate": "MoTe2_mono2H",
+   "pbe_gap_ev": 1.0582,
+   "restarts": 0,
+   "F4SCF": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 13.3,
+    "node_hours": 0.0009,
+    "peak_rank_rss_gb": 0.196,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoTe2_mono2H_ph/f4scf.out",
+    "scf_converged": true,
+    "job_done": true,
+    "etot_ry": -192.38863916,
+    "total_force_ry_au": null,
+    "nelec": 26.0,
+    "relax_converged": false
+   },
+   "F4": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 208.7,
+    "node_hours": 0.0145,
+    "peak_rank_rss_gb": 0.21,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoTe2_mono2H_ph/f4.out",
+    "ph_done": true,
+    "freqs_cm1": [
+     4.660737,
+     15.809185,
+     15.809185,
+     114.224016,
+     114.224016,
+     167.869062,
+     229.174857,
+     229.174857,
+     283.449896
+    ],
+    "min_freq_cm1": 4.660737,
+    "gamma_unstable": false
+   }
+  },
+  {
+   "candidate": "MoTe2_mono2H",
+   "phase": "2H-single-layer",
+   "metal": "Mo",
+   "chalcogen": "Te",
+   "pbe_gap_ev_scalar_rel": 1.0582,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 80.4,
+     "node_hours": 0.0056,
+     "peak_rank_rss_gb": 0.382,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoTe2_mono2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -1091.77593736,
+     "nelec": 26.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 94.0,
+     "node_hours": 0.0065,
+     "peak_rank_rss_gb": 0.292,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/MoTe2_mono2H/socnscf.out",
+     "vbm_ev": 0.2876,
+     "cbm_ev": 1.2174,
+     "gap_ev": 0.9298,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 0.9298,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.1284
+  },
+  {
+   "candidate": "WS2_mono2H",
+   "pbe_gap_ev": 1.8368,
+   "restarts": 0,
+   "F4SCF": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 14.9,
+    "node_hours": 0.001,
+    "peak_rank_rss_gb": 0.239,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WS2_mono2H_ph/f4scf.out",
+    "scf_converged": true,
+    "job_done": true,
+    "etot_ry": -207.51866131,
+    "total_force_ry_au": null,
+    "nelec": 26.0,
+    "relax_converged": false
+   },
+   "F4": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 209.9,
+    "node_hours": 0.0146,
+    "peak_rank_rss_gb": 0.203,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WS2_mono2H_ph/f4.out",
+    "ph_done": true,
+    "freqs_cm1": [
+     -1.307386,
+     -1.307386,
+     5.98129,
+     287.232065,
+     287.232065,
+     345.413726,
+     345.413726,
+     406.860902,
+     427.229744
+    ],
+    "min_freq_cm1": -1.307386,
+    "gamma_unstable": false
+   }
+  },
+  {
+   "candidate": "WS2_mono2H",
+   "phase": "2H-single-layer",
+   "metal": "W",
+   "chalcogen": "S",
+   "pbe_gap_ev_scalar_rel": 1.8368,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 95.8,
+     "node_hours": 0.0067,
+     "peak_rank_rss_gb": 0.334,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WS2_mono2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -897.96753339,
+     "nelec": 26.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 74.3,
+     "node_hours": 0.0052,
+     "peak_rank_rss_gb": 0.266,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WS2_mono2H/socnscf.out",
+     "vbm_ev": -0.3833,
+     "cbm_ev": 1.1931,
+     "gap_ev": 1.5764,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.5764,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.2604
+  },
+  {
+   "candidate": "WSe2_mono2H",
+   "pbe_gap_ev": 1.5767,
+   "restarts": 0,
+   "F4SCF": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 15.0,
+    "node_hours": 0.001,
+    "peak_rank_rss_gb": 0.245,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WSe2_mono2H_ph/f4scf.out",
+    "scf_converged": true,
+    "job_done": true,
+    "etot_ry": -246.46824134,
+    "total_force_ry_au": null,
+    "nelec": 26.0,
+    "relax_converged": false
+   },
+   "F4": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 238.4,
+    "node_hours": 0.0166,
+    "peak_rank_rss_gb": 0.204,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WSe2_mono2H_ph/f4.out",
+    "ph_done": true,
+    "freqs_cm1": [
+     2.93378,
+     11.829277,
+     11.829277,
+     168.279486,
+     168.279486,
+     239.089557,
+     239.089557,
+     241.968126,
+     299.996291
+    ],
+    "min_freq_cm1": 2.93378,
+    "gamma_unstable": false
+   }
+  },
+  {
+   "candidate": "WSe2_mono2H",
+   "phase": "2H-single-layer",
+   "metal": "W",
+   "chalcogen": "Se",
+   "pbe_gap_ev_scalar_rel": 1.5767,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 51.9,
+     "node_hours": 0.0036,
+     "peak_rank_rss_gb": 0.343,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WSe2_mono2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -1144.34141591,
+     "nelec": 26.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 72.2,
+     "node_hours": 0.005,
+     "peak_rank_rss_gb": 0.267,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WSe2_mono2H/socnscf.out",
+     "vbm_ev": 0.2667,
+     "cbm_ev": 1.5552,
+     "gap_ev": 1.2885,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 1.2885,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.2882
+  },
+  {
+   "candidate": "WTe2_mono2H",
+   "pbe_gap_ev": 1.0643,
+   "restarts": 0,
+   "F4SCF": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 17.5,
+    "node_hours": 0.0012,
+    "peak_rank_rss_gb": 0.248,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WTe2_mono2H_ph/f4scf.out",
+    "scf_converged": true,
+    "job_done": true,
+    "etot_ry": -212.14557922,
+    "total_force_ry_au": null,
+    "nelec": 26.0,
+    "relax_converged": false
+   },
+   "F4": {
+    "ok": true,
+    "rc": 0,
+    "wall_s": 260.6,
+    "node_hours": 0.0181,
+    "peak_rank_rss_gb": 0.217,
+    "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WTe2_mono2H_ph/f4.out",
+    "ph_done": true,
+    "freqs_cm1": [
+     -3.7561,
+     11.547568,
+     11.547568,
+     118.615477,
+     118.615477,
+     173.515556,
+     191.618675,
+     191.618675,
+     238.468392
+    ],
+    "min_freq_cm1": -3.7561,
+    "gamma_unstable": false
+   }
+  },
+  {
+   "candidate": "WTe2_mono2H",
+   "phase": "2H-single-layer",
+   "metal": "W",
+   "chalcogen": "Te",
+   "pbe_gap_ev_scalar_rel": 1.0643,
+   "stages": {
+    "SOC_SCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 87.1,
+     "node_hours": 0.006,
+     "peak_rank_rss_gb": 0.383,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WTe2_mono2H/socscf.out",
+     "scf_converged": true,
+     "job_done": true,
+     "etot_ry": -1492.5588982,
+     "nelec": 26.0
+    },
+    "SOC_NSCF": {
+     "ok": true,
+     "rc": 0,
+     "wall_s": 105.1,
+     "node_hours": 0.0073,
+     "peak_rank_rss_gb": 0.292,
+     "out": "/scratch/general/vast/<uNID>/mpt_stackfu/socph/work/WTe2_mono2H/socnscf.out",
+     "vbm_ev": 0.7581,
+     "cbm_ev": 1.5055,
+     "gap_ev": 0.7474,
+     "metallic": false
+    }
+   },
+   "failures": 0,
+   "restarts": 0,
+   "soc_gap_ev": 0.7474,
+   "soc_metallic": false,
+   "soc_shift_ev": -0.3169
+  }
+ ],
+ "node_hours": 0.184,
+ "qe_calls": 28,
+ "wall_hours": 0.368
+}

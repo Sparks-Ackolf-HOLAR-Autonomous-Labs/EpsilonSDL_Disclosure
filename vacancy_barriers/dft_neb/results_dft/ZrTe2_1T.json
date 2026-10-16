@@ -1,0 +1,45 @@
+{
+ "candidate": "ZrTe2_1T",
+ "restart_count": 0,
+ "node": "notch469",
+ "ranks": 32,
+ "npool": "2",
+ "ini_rc": 0,
+ "ini_wall_s": 839.5587954521179,
+ "ini_E_Ry": -1344.45764392,
+ "ini_cpu_s": 700.41,
+ "fin_rc": 0,
+ "fin_wall_s": 825.0093002319336,
+ "fin_E_Ry": -1344.45764392,
+ "fin_cpu_s": 686.11,
+ "neb_restart_mode": "from_scratch",
+ "neb_rc": 0,
+ "neb_wall_s": 5408.64061999321,
+ "E_hop_eV": 0.907677,
+ "E_hop_back_eV": 0.907677,
+ "neb_converged": true,
+ "neb_iterations": 27,
+ "neb_cpu_s": 4500.0,
+ "profile_eV": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   0.2493938149,
+   0.7282330322
+  ],
+  [
+   0.5000024835,
+   0.9076773005
+  ],
+  [
+   0.7506088555,
+   0.7282207661
+  ],
+  [
+   1.0,
+   -7.2e-09
+  ]
+ ]
+}

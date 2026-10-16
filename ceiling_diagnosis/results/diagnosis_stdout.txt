@@ -1,0 +1,10 @@
+irreducible_frac       mean=0.376 med=0.373 [q10 0.098, q90 0.609]
+science_gap_frac       mean=0.553 med=0.515 [q10 0.273, q90 1.000]
+exec_gap_frac          mean=0.032 med=0.056 [q10 -0.314, q90 0.310]
+overhead_frac_dtde     mean=0.069 med=0.063 [q10 0.054, q90 0.092]
+labels_per_nh_ratio    mean=1.216 med=1.144 [q10 0.980, q90 1.529]
+paired_seed_winrate    mean=0.260 med=0.133 [q10 0.000, q90 0.867]
+P(exec_gap >= 20%) = 0.200
+P(exec_gap >= 10%) = 0.383
+P(preregistered gainA, CTCE) = 0.183
+P(labels/nh ratio >= 1.15, CTCE) = 0.493
